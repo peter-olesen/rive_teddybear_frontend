@@ -8,6 +8,7 @@ const annoyedBtn = document.getElementById("annoyedBtn");
 // Function to feed (emits a feed event to server which updates health status and plays animation)
 export const feed = () => {
   isEating.fire();
+  isSad = false;
   // console.log("isEating", isEating);
   ioSocket.emit("feed");
 };
