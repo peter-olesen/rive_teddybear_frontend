@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #313131;
+}
+
+#canvas {
+  width: 800px;
+  height: 800px;
+}
